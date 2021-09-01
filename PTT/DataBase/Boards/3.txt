@@ -1,0 +1,7 @@
+3
+0
+c_chat
+welcome to c_chat
+2
+6
+7

@@ -1,0 +1,45 @@
+user:
+string userID
+string password
+int permission
+int post#
+int post_id1
+int post_id2 .....
+int mail#
+string from
+string to
+string message
+.....
+
+board:
+int boardID
+int deleted
+string name
+string description
+int post#
+int post_id1
+int post_id2 .....
+
+
+post:
+int postID
+int deleted
+char deleted_by_self
+int boardID
+string author
+string title
+time_t time
+int content_line_len
+string content
+int comments_len
+int comment_ID_1
+int comment_ID_2
+....
+comment:
+int commentID
+int deleted
+int type
+int postID
+string userID
+time_t time
+string content
